@@ -91,6 +91,11 @@ Regras ao escolher:
 - **Texto escuro sobre fundo claro precisa ser confortável de ler.** Cor clara sobre
   fundo claro some, e o material fica bonito na tela do computador e ilegível no celular
   na rua.
+- **A cor de destaque carrega texto em cima dela** (é a cor do botão e do preço), então
+  decida agora qual cor de letra vai por cima: o branco ou o texto escuro, o que ficar
+  legível. Registre essa dupla junto com a cor de destaque. Sem isso, na hora de montar
+  o material aparece um preço dourado sobre fundo claro que ninguém enxerga, e você
+  acaba inventando uma sexta cor para resolver.
 - Respeite o que ela disse na pergunta 3, sem exceção.
 
 Mostre a paleta com o nome de cada cor, o código e uma frase dizendo onde usar cada uma.
@@ -154,13 +159,21 @@ preço, e o contato. Tudo aplicando as cores, as fontes e as regras.
 
 Como montar o arquivo:
 
-- **Um arquivo só, que abre sozinho.** Sem depender de internet e sem arquivo extra do
-  lado. Declare as fontes escolhidas com uma alternativa comum do sistema logo em
-  seguida, para a página abrir bonita mesmo se a fonte não estiver instalada na máquina
-  dela.
+- **Um arquivo só, sem arquivo extra do lado.**
+- **As fontes precisam aparecer de verdade.** As duas que você escolheu quase certamente
+  não estão instaladas na máquina dela, e sem providência a página abre em Georgia e
+  Arial: ela aprovaria uma marca que nunca viu. Puxe as duas do Google Fonts no topo do
+  arquivo (a linha `@import` que o próprio Google Fonts fornece), e deixe a alternativa
+  do sistema depois, como rede de segurança. Isso pede internet no momento de abrir, e
+  ela está com internet: acabou de conversar com você.
+- **Diga como conferir.** Peça a ela, junto com o pedido para abrir, que confirme se as
+  letras estão com a cara das que você descreveu. Se ela disser que ficou com aparência
+  de documento comum, a fonte não carregou: refaça o teste com ela online.
 - **Só o que está na pasta do negócio.** Preço, serviço, telefone e endereço saem de
   `negocio/contexto.md`. O que faltar, você pergunta. Não invente preço, não invente
-  telefone, não invente depoimento de cliente.
+  telefone, não invente depoimento de cliente. Serviço que não tem preço fechado (um
+  pacote, um orçamento sob medida) entra com "sob consulta" — nunca com um número que
+  você deduziu.
 - Simples de ler no celular e no computador.
 
 Depois, diga a ela como abrir, com estas palavras:

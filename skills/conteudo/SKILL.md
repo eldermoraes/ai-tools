@@ -83,8 +83,19 @@ já usa.
 
 ## Passo 4: os três rascunhos
 
-Escreva **3 rascunhos, um de cada vez**, adaptados aos canais escolhidos. Depois de cada
-um, mostre e pergunte se está bom antes de escrever o próximo.
+Escreva **3 rascunhos, um de cada vez**. Depois de cada um, mostre e pergunte se está bom
+antes de escrever o próximo. São sempre três, distribuídos entre os canais que ela
+escolheu:
+
+- **Três canais ou mais:** um rascunho para cada um dos três primeiros.
+- **Dois canais:** dois para o canal principal dela (dois ângulos diferentes do mesmo
+  assunto) e um para o outro.
+- **Um canal só:** três versões para esse canal, cada uma entrando no assunto por um
+  caminho: uma pela história, uma pelo problema que o cliente tem, uma pela oferta
+  direta.
+
+Três é o número certo porque é o que dá para publicar na semana sem repetir a mesma
+frase.
 
 Regras para escrever:
 
@@ -109,9 +120,14 @@ o número da semana e `assunto` é o assunto em poucas palavras, tudo minúsculo
 hífen no lugar do espaço. Exemplo: `2026-33-lancamento-do-curso.md`.
 
 Descubra a data de hoje pelo sistema. Se não conseguir, pergunte a data para a pessoa.
+A semana no nome do arquivo é sempre a semana em que vocês escreveram. Se o conteúdo é
+para uma data lá na frente (Dia das Mães, Black Friday, uma inauguração), escreva no
+topo do arquivo **para quando ele é**, em uma linha: é assim que ela reencontra o texto
+quando a data chegar.
 
 O arquivo tem, nesta ordem: o assunto, o insumo que ela deu (do jeito que ela mandou),
-os canais escolhidos e os rascunhos aprovados, um por canal.
+os canais escolhidos e os três rascunhos aprovados, cada um marcado com o canal a que
+se destina.
 
 Se já existir arquivo dessa semana com o mesmo assunto, acrescente ao que está lá. Não
 apague o que já foi escrito.

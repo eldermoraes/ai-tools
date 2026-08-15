@@ -114,6 +114,11 @@ Depois pergunte, com estas palavras: **"Soa como você?"**
   pergunte de novo. Repita quantas vezes for preciso.
 - Se ela aprovar "mais ou menos", trate como reprovação: pergunte o que falta.
 
+**Grave cada rodada em `voz/anotacoes.md` na hora:** a versão que você mostrou e o que
+ela respondeu. O que ela corrige aqui é a parte mais valiosa da conversa inteira ("ficou
+formal demais", "eu nunca começaria assim"), e é isso que vira o `VOICE.md`. Se a
+conversa cair no meio, essa rodada não pode se perder.
+
 Só passe adiante com um "sim" claro.
 
 ## Passo 5: gravar o `VOICE.md`

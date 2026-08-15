@@ -58,7 +58,10 @@ Olhe a transcrição antes de prometer qualquer coisa.
   consegue apontar os trechos pelo que está escrito ("o pedaço que começa em *então,
   assim...*"), mas não consegue montar o arquivo de legendas nem dar o minuto do corte.
   Ofereça o caminho do YouTube do passo 1, que devolve o texto com o tempo. Se ela
-  preferir seguir sem o tempo, siga, e entregue só a lista de trechos.
+  preferir seguir sem o tempo, siga assim: a lista de cortes sai com o texto de cada
+  trecho no lugar do minuto, e os clipes saem com a primeira e a última frase de cada
+  um, para ela achar no editor pela fala. Legenda não sai, e você diz isso de novo no
+  fim, para não haver surpresa.
 
 ## Passo 3: o que ela quer (uma pergunta só)
 
@@ -102,6 +105,13 @@ Entregue como tabela, uma linha por corte:
 | De | Até | O que está sendo dito | Por que cortar |
 |---|---|---|---|
 | 00:00 | 00:07 | "deixa eu ver se está gravando..." | sobra do começo |
+| dentro de 01:20 | — | "éé, tipo assim" (antes de "a drenagem") | hesitação no meio da fala |
+
+**Você só escreve um tempo que está escrito na transcrição.** Quando o corte é um trecho
+inteiro, use o tempo dele. Quando é uma gaguejada no meio de uma fala, a transcrição não
+tem o segundo exato: escreva `dentro de` mais o tempo do trecho onde ela está, e cite as
+palavras vizinhas para ela achar. Nunca calcule, estime ou arredonde um segundo que não
+estava lá.
 
 Duas regras:
 
@@ -138,18 +148,26 @@ Ao escrever as legendas:
   celular;
 - corte a legenda onde a frase respira, não no meio de uma palavra;
 - arrume as hesitações e a pontuação do texto falado, sem trocar as palavras dela nem
-  mudar o sentido;
-- respeite o tempo original: a legenda tem que bater com o que está sendo dito.
+  mudar o sentido.
 
-Se ela cortou trechos, avise em uma linha que o arquivo já está sincronizado com o vídeo
-**depois** dos cortes, e que ele serve se ela aplicar a lista inteira. Se ela aplicar só
-uma parte, ofereça gerar de novo com os cortes que ela escolheu.
+**Em que tempo esse arquivo roda.** O `.srt` é feito para o vídeo **depois** dos cortes:
+você tira os trechos cortados e recalcula os tempos desde o começo, sem deixar buraco. A
+duração de cada fala continua sendo a real, tirada da transcrição — o que muda é só onde
+ela cai na linha do tempo, porque o que veio antes encurtou.
+
+Diga isso a ela em uma linha, junto com o arquivo: ele serve depois de aplicar a lista
+de cortes inteira. Se ela aplicar só uma parte, ofereça gerar de novo com os cortes que
+ela escolheu. Se ela não for cortar nada, gere sem recalcular, no tempo original.
 
 ## Passo 6: os clipes (se ela pediu)
 
 Sugira 2 ou 3 trechos que funcionam sozinhos, cada um com:
 
-- **início e fim**, com a marcação de tempo;
+- **início e fim**, com a marcação de tempo **do vídeo original**, o arquivo que ela tem
+  na mão agora. Escreva isso com todas as letras no topo da lista de clipes: aqui os
+  tempos são os do vídeo como ele está, e não os do arquivo de legendas, que roda depois
+  dos cortes. São duas contagens diferentes, e ela precisa saber qual está usando para
+  não procurar o trecho no minuto errado;
 - **a primeira frase**, copiada da transcrição, que é o que segura a pessoa nos primeiros
   segundos;
 - **por que esse trecho funciona sozinho**: ele responde uma pergunta inteira, conta uma

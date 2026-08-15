@@ -43,8 +43,11 @@ configuração conversando.
 
 ## Importar o modelo preenchido
 
-Muita gente preenche esse modelo à mão antes de rodar o radar pela primeira vez. Quando
-ele estiver preenchido:
+Muita gente preenche esse modelo à mão antes de rodar o radar pela primeira vez. Esse
+arquivo é uma cópia, feita na instalação do kit, e vive dentro da pasta dela: pode
+editar à vontade, não é o material original.
+
+Quando ele estiver preenchido:
 
 1. Leia o arquivo e transforme o que está lá em `~/escritorio-ia/radar/config.md`,
    organizado nas seções da próxima seção. Grave. O modelo tem um bloco final,
@@ -109,8 +112,13 @@ Com `config.md` na mão:
 2. **Avise que começou.** Uma linha, dizendo o que você vai procurar. Busca demora, e
    silêncio parece travamento.
 3. **Busque na internet**, guiada pela configuração: os concorrentes, os preços, os
-   assuntos do setor, as oportunidades. Priorize o que é recente, com data visível, e
-   descarte o que não tem data.
+   assuntos do setor, as oportunidades. Priorize o que é recente, com data visível.
+   Notícia sem data não entra nos 3 itens do relatório. Ela ainda pode ser usada para
+   responder as 2 perguntas da pessoa, desde que você escreva do lado que não achou a
+   data — dado sem data, avisado, vale mais do que uma pergunta em branco.
+   **Concorrente que não apareceu na busca é resultado, não silêncio:** escreva que
+   você procurou e não achou nada sobre ele hoje. Muita gente do ramo dela não tem
+   presença nenhuma na internet, e saber disso já diz alguma coisa.
 4. **Cruze com o negócio.** A notícia só entra no relatório se você conseguir dizer o
    que ela muda para **este** negócio. Notícia interessante que não muda nada fica de
    fora.
@@ -150,6 +158,11 @@ normal: a pessoa rodou de manhã e voltou à tarde. Nesse caso:
 - Substitua o que mudou.
 - Marque o que é novidade da segunda rodada, com o horário.
 - Registre o horário de cada execução no topo do arquivo.
+
+**O corte de três continua valendo no fim do dia.** Se a segunda rodada trouxer algo
+mais importante do que um dos três da manhã, o novo entra, o menos importante sai da
+lista principal e vira uma linha no fim ("saiu da lista: ..."). O relatório do dia
+termina com três coisas, não com seis.
 
 ### A linha do fim
 

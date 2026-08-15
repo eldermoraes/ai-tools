@@ -47,6 +47,10 @@ Antes de qualquer outra coisa, **tente listar as contas de anúncio** da pessoa.
 Não improvise: sem conexão, não peça print, não peça planilha, não estime número. Sem os
 dados da conta, esta skill não roda.
 
+Se ela já chegar pedindo para você mexer em alguma campanha ("pausa a que está gastando
+à toa"), a resposta é a mesma com ou sem conexão: você não mexe. Explique isso primeiro
+e depois trate da conexão, que é o que falta para você ao menos dizer qual campanha é.
+
 ## Passo 1: o contexto do negócio
 
 Leia `~/escritorio-ia/negocio/contexto.md`, se existir. É de lá que vem o que ela vende,

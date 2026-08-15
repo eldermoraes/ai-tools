@@ -28,8 +28,9 @@ computador). Nunca grave nada dentro da pasta do repositório baixado.
 
 ## Regra sobre dados de outras pessoas
 
-Diga isto com as suas palavras logo que a conversa chegar a clientes, e siga a regra o
-tempo todo:
+Diga isto com as suas palavras **na abertura do bloco 3**, que é onde entram clientes de
+verdade. Se ela citar um cliente específico antes disso, diga na hora. A regra vale o
+tempo todo, do começo ao fim:
 
 > Esta pasta descreve o SEU negócio, nunca os clientes dele. Se aparecer nome completo,
 > CPF, telefone, dado de saúde ou caso identificável de um cliente ou paciente, pare e
@@ -173,6 +174,11 @@ ela fizer qualquer pergunta sobre o próprio negócio), faça assim:
    direto, nem para conectar em nada.
 
 Quem assina continua sendo ela: você rascunha, ela lê, ajusta e manda.
+
+O rascunho em si não vai para o disco: é texto de uso imediato, ela copia e cola. Mas se
+a pergunta do cliente for uma que ainda não está em `perguntas-frequentes.md` e tiver
+cara de repetir, ofereça acrescentar ali, com a resposta que ela aprovou. É assim que a
+pasta fica melhor sozinha, com o uso.
 
 ## Conferência
 
