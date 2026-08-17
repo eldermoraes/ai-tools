@@ -132,9 +132,11 @@ máquina. Não tem? Suba o vídeo como não listado no YouTube e copie a transcr
 automática de lá, que já vem com a marcação de tempo.
 
 Ela não abre o arquivo de vídeo e não corta nada. Ela escreve o mapa, e quem corta
-é você, no editor que já usa. Para a própria máquina cortar e montar o vídeo, o
-guia é [`avancado/video-completo.md`](avancado/video-completo.md), e ele pede
-programas extras e espaço em disco.
+é você, no editor que já usa. Existe também o degrau seguinte: instalar uma skill
+de edição completa, que corta, legenda e monta o arquivo final sozinha. O guia é
+[`avancado/video-completo.md`](avancado/video-completo.md), e ele diz de frente o
+que isso pede: programas extras, uma conta num serviço de transcrição e espaço em
+disco.
 
 ### `minha-marca` ($)
 

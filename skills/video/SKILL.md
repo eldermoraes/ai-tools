@@ -15,10 +15,11 @@ legendas limpo, e sugestões de trechos que funcionam sozinhos como vídeo curto
 
 **O que ela não faz:** ela não corta e não gera o vídeo final. Ela escreve o mapa; quem
 corta é você, no editor que já usa (CapCut, InShot, Premiere, o que for). O caminho em
-que a própria máquina corta e monta o arquivo existe e está escrito no guia
-`avancado/video-completo.md`, instalado em
-`~/escritorio-ia/_kit/avancado/video-completo.md`. Ele pede programas extras e espaço em
-disco.
+que a própria máquina corta, legenda e monta o arquivo existe: é a instalação de uma
+skill de edição completa (um projeto aberto chamado video-use), e o passo a passo está
+no guia `avancado/video-completo.md`, instalado em
+`~/escritorio-ia/_kit/avancado/video-completo.md`. Ele pede programas extras, uma conta
+num serviço de transcrição e espaço em disco.
 
 ## Como você conduz esta conversa
 
@@ -194,5 +195,6 @@ com franqueza em vez de inventar três.
    de efeito, risada e mudança de entonação não aparecem na transcrição. Ela confere antes
    de apagar qualquer coisa.
 3. Se ela quiser que a própria máquina corte e monte o vídeo, aponte
-   `avancado/video-completo.md` e diga o que aquilo pede: programas extras, espaço em
-   disco e paciência.
+   `avancado/video-completo.md`: o guia instala uma skill de edição completa e diz com
+   franqueza o que pede — programas extras, uma conta num serviço de transcrição e
+   paciência.

@@ -46,9 +46,11 @@ uma configuração antes. Deixe para quando o básico já estiver de pé.
   máquina. Guia: `avancado/telegram.md`.
 - **Radar rodando sozinho de manhã**: precisa de um agendador no sistema, e o
   computador tem que estar ligado na hora. Guia: `avancado/agendamento.md`.
-- **Vídeo cortado e renderizado pela máquina**: precisa de programas extras e de
-  espaço em disco. Guia: `avancado/video-completo.md`. A skill `video` sozinha
-  entrega a lista de cortes e as legendas, e isso roda em qualquer computador.
+- **Vídeo cortado e renderizado pela máquina**: instala uma skill de edição
+  completa (projeto aberto, fora deste kit) e precisa de programas extras, de uma
+  conta num serviço de transcrição e de espaço em disco. Guia:
+  `avancado/video-completo.md`. A skill `video` sozinha entrega a lista de cortes
+  e as legendas, e isso roda em qualquer computador.
 
 ## Uma coisa que vale para tudo
 
