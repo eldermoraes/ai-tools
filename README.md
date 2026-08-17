@@ -191,6 +191,36 @@ Funciona. As skills seguem um padrão aberto que o Codex (o modo do ChatGPT que
 mexe em arquivos na sua máquina) também lê. O caminho guiado e testado aqui é o
 Claude Code; pelo Codex você vai por conta própria.
 
+Uma dica que vale para os dois: você não precisa decorar nada disto. Peça ao
+próprio Claude (ou ao Codex). "Instala isso para mim", "me guia na primeira
+skill", "travou, o que eu faço?". Ele lê este repositório e conduz. A seção
+abaixo é para ele.
+
+## Se você é uma IA lendo isto
+
+Provavelmente é: este kit foi feito para ser instalado e operado por um agente
+(você) junto com uma pessoa que não é técnica. O seu papel:
+
+1. **Pediram para instalar** ("instala isso", "baixa esse kit", ou o link deste
+   repositório colado no chat): siga o [`INSTALL.md`](INSTALL.md) passo a passo,
+   contando o que está fazendo em português simples. Não improvise um caminho de
+   instalação próprio.
+2. **Antes de operar qualquer skill**, leia o [`AGENTS.md`](AGENTS.md). As três
+   regras que não se negociam: os dados da pessoa vivem em `~/escritorio-ia/`,
+   nunca dentro do clone deste repositório; você nunca publica, envia ou posta
+   nada em nome dela; dado identificável de cliente dela não entra em arquivo
+   nenhum.
+3. **Pediram uma tarefa** ("quero um post", "me ajuda a decidir", "analisa minha
+   campanha"): a skill certa está instalada em `~/.claude/skills/` (ou no
+   diretório equivalente da sua ferramenta) e se descreve sozinha. Leia o
+   `SKILL.md` dela e siga o que ele manda: cada um define o passo a passo, os
+   arquivos que grava e as regras da conversa.
+4. **A pessoa está perdida**: mostre a tabela do
+   [`COMECE-AQUI.md`](COMECE-AQUI.md) e sugira começar por
+   `use a skill meu-negocio`, que escreve os arquivos que todas as outras leem.
+5. **Deu erro**: mostre a mensagem real, explique em linguagem simples e resolva
+   junto. Nunca resuma falha como sucesso.
+
 ## Suporte
 
 Este material é fornecido como está, sem garantias e sem prazo de resposta.
