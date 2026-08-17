@@ -26,13 +26,14 @@ Sem os dois, nada aqui roda.
 > Baixe o repositório https://github.com/eldermoraes/ai-tools e siga o INSTALL.md dele.
 
 Ele faz o resto sozinho: baixa os arquivos, instala as skills, cria as pastas e
-diz o que fazer em seguida. Quando terminar, abra o `COMECE-AQUI.md` para saber
-qual skill resolve o quê.
+diz o que fazer em seguida. Quando terminar, abra o
+[`COMECE-AQUI.md`](COMECE-AQUI.md) para saber qual skill resolve o quê.
 
 ## As 9 skills, uma a uma
 
-O `COMECE-AQUI.md` é o mapa rápido: qual skill resolve o quê. Esta parte é o
-como. O que digitar, o que ter à mão antes, e o que você tem na mão no fim.
+O [`COMECE-AQUI.md`](COMECE-AQUI.md) é o mapa rápido: qual skill resolve o quê.
+Aqui é o passo a passo de cada uma: o que digitar, o que ter à mão antes, e o
+que você tem na mão no fim.
 
 Elas estão na ordem de uso. As três primeiras são o primeiro dia, e `meu-negocio`
 vem antes de tudo porque as outras leem os arquivos que ela escreve. Todas
@@ -57,7 +58,7 @@ seu prazo, para você revisar e mandar.
 
 ### `minha-voz` ($)
 
-Lê textos que você mesma escreveu e grava o seu jeito de escrever num arquivo.
+Lê textos que você escreveu e grava o seu jeito de escrever num arquivo.
 Daí em diante, toda skill do kit que escreve texto lê esse arquivo antes de
 começar.
 
@@ -80,7 +81,7 @@ a sua voz capturada, e o que você acabou de dizer sobre o assunto.
 
 **Tenha à mão:** um assunto e 3 tópicos sobre ele, escritos por você em um minuto.
 Ou grave 1 minuto de áudio falando do assunto e traga a transcrição. É essa parte
-que tira o texto da cara de robô.
+que tira a cara de robô do texto.
 
 Ela pergunta o assunto, pede o seu material, pergunta em quais canais você publica
 e escreve 3 rascunhos, um de cada vez, esperando o seu aval antes de ir para o
@@ -89,7 +90,7 @@ copiar e publicar. Ela nunca publica e nunca agenda nada.
 
 ### `conselho` ($$ a $$$)
 
-Cinco conselheiros de IA analisam uma decisão do seu negócio por cinco ângulos
+Cinco conselheiros de IA analisam uma decisão do seu negócio de cinco ângulos
 diferentes (o dinheiro, as vendas, o cliente, a execução e o negócio daqui a
 alguns anos) e devolvem um veredito com placar.
 
@@ -115,7 +116,7 @@ Na primeira vez ela não busca nada: conversa e escreve a configuração, que é
 que vigiar e para quê. Da segunda vez em diante é só pedir, e o relatório do dia
 sai num arquivo. Se você quiser que ele rode sozinho toda manhã, isso pede um
 agendador no sistema e o computador ligado na hora: o guia é
-`avancado/agendamento.md`.
+[`avancado/agendamento.md`](avancado/agendamento.md).
 
 ### `video` ($)
 
@@ -132,8 +133,8 @@ automática de lá, que já vem com a marcação de tempo.
 
 Ela não abre o arquivo de vídeo e não corta nada. Ela escreve o mapa, e quem corta
 é você, no editor que já usa. Para a própria máquina cortar e montar o vídeo, o
-guia é `avancado/video-completo.md`, e ele pede programas extras e espaço em
-disco.
+guia é [`avancado/video-completo.md`](avancado/video-completo.md), e ele pede
+programas extras e espaço em disco.
 
 ### `minha-marca` ($)
 
@@ -158,8 +159,8 @@ pagou antes, e no máximo 3 ajustes que valem a pena esta semana. Ela só lê. N
 pausa anúncio, não mexe em orçamento, não altera campanha.
 
 **Antes, uma etapa a mais:** conectar a sua conta de anúncios do Meta. É feito uma
-vez só, e o passo a passo está em `avancado/meta-ads.md`. Sem essa conexão ela não
-roda, e vai dizer isso logo na primeira resposta.
+vez só, e o passo a passo está em [`avancado/meta-ads.md`](avancado/meta-ads.md).
+Sem essa conexão ela não roda, e vai dizer isso logo na primeira resposta.
 
 **Para começar, digite:** `use a skill trafego`
 
@@ -174,7 +175,7 @@ arquivo que já está no computador. Ela só manda, nunca recebe: não lê mensa
 não lista conversas e não responde ninguém.
 
 **Antes, uma etapa a mais:** criar um bot no Telegram e guardar o código dele na
-máquina. Passo a passo em `avancado/telegram.md`.
+máquina. Passo a passo em [`avancado/telegram.md`](avancado/telegram.md).
 
 **Para começar, digite:** `use a skill telegram`. Na prática você nem precisa
 chamar pelo nome: peça "me manda esse arquivo no celular" e ela entra sozinha.

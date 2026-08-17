@@ -7,7 +7,8 @@ Para usar qualquer uma, abra o Claude Code e escreva `use a skill` mais o nome.
 Por exemplo: **use a skill meu-negocio**.
 
 Quer saber como é usar cada uma, o que ter à mão e o que sai no fim? O passo a
-passo skill por skill está no `README.md`.
+passo, skill por skill, está na página do repositório:
+https://github.com/eldermoraes/ai-tools
 
 | Você quer | Use |
 |---|---|
