@@ -6,6 +6,9 @@ você quer agora.
 Para usar qualquer uma, abra o Claude Code e escreva `use a skill` mais o nome.
 Por exemplo: **use a skill meu-negocio**.
 
+Quer saber como é usar cada uma, o que ter à mão e o que sai no fim? O passo a
+passo skill por skill está no `README.md`.
+
 | Você quer | Use |
 |---|---|
 | A IA conhecer o seu negócio (comece por aqui) | `meu-negocio` |
