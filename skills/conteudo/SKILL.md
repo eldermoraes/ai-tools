@@ -114,6 +114,23 @@ Regras para escrever:
 - Se ela reprovar um rascunho, pergunte o que ficou estranho, ajuste e mostre de novo
   antes de seguir para o próximo.
 
+Antes de mostrar cada rascunho, faça uma passada anti-robô. Estes cacoetes entregam
+texto de IA; onde um aparecer, reescreva a frase pelo caminho indicado:
+
+- Travessão de efeito ("não é preguiça — é cansaço"): troque por ponto ou vírgula.
+- "Não é X, é Y" ("não é falta de vontade, é falta de horário"): corte o X e afirme
+  o Y.
+- Emenda de três ou mais dores ou qualidades ("reunião, trânsito, cansaço"): escolha
+  a mais forte e corte o resto.
+- Palavra inflada ("essencial", "transformador", "divisor de águas"): diga o que a
+  coisa faz, em palavra comum.
+- Emoji marcando itens de lista: tire; emoji só onde ela usaria.
+- Fechamento de balanço ("Em um mundo cada vez mais..."): termine no convite ou na
+  informação, sem moral da história.
+
+Se o `voz/VOICE.md` mostrar que ela mesma escreve de um desses jeitos, o jeito dela
+fica.
+
 Grave cada rascunho aprovado no arquivo da semana, na hora, marcando o canal.
 
 ## Passo 5: o arquivo
