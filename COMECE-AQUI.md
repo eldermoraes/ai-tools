@@ -14,7 +14,7 @@ https://github.com/eldermoraes/ai-tools
 |---|---|
 | A IA conhecer o seu negócio (comece por aqui) | `meu-negocio` |
 | Posts e textos no SEU tom, sem cara de robô | `minha-voz`, depois `conteudo` |
-| Editar vídeo: cortes e legendas a partir da transcrição | `video` |
+| Editar vídeo: cortar os erros, legendar e montar o arquivo final | `video` |
 | Analisar suas campanhas de anúncio | `trafego` (requer conexão — veja `avancado/meta-ads.md`) |
 | Um conselho para uma decisão difícil | `conselho` |
 | Um relatório do seu negócio toda manhã | `radar` |
@@ -46,11 +46,11 @@ uma configuração antes. Deixe para quando o básico já estiver de pé.
   máquina. Guia: `avancado/telegram.md`.
 - **Radar rodando sozinho de manhã**: precisa de um agendador no sistema, e o
   computador tem que estar ligado na hora. Guia: `avancado/agendamento.md`.
-- **Vídeo cortado e renderizado pela máquina**: instala uma skill de edição
-  completa (projeto aberto, fora deste kit) e precisa de programas extras, de uma
-  conta num serviço de transcrição e de espaço em disco. Guia:
-  `avancado/video-completo.md`. A skill `video` sozinha entrega a lista de cortes
-  e as legendas, e isso roda em qualquer computador.
+- **`video` na primeira vez**: quem corta e monta o arquivo é uma skill de
+  edição completa (video-use, projeto aberto, fora deste kit). Se ela ainda não
+  está na máquina, a própria skill `video` instala com você — pede programas
+  extras, uma conta num serviço de transcrição e espaço em disco. Guia:
+  `avancado/video-completo.md`.
 
 ## Uma coisa que vale para tudo
 

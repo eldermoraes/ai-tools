@@ -1,11 +1,11 @@
 # O vídeo que se edita sozinho (fluxo completo)
 
 Isto pede instalação de programas, uma conta num serviço de transcrição e
-paciência na primeira vez. Se você só quer a lista de cortes e as legendas para
-aplicar no editor que já usa, não precisa deste guia: a skill `video` faz isso e
-roda em qualquer computador.
+paciência na primeira vez. Normalmente você nem abre este guia por conta
+própria: é a skill `video` que segue estes passos com você, na primeira vez que
+você pedir um vídeo editado nesta máquina.
 
-Este guia serve para você e para o seu Claude ao mesmo tempo. Abra o Claude
+Ele também funciona sozinho, se você preferir instalar antes. Abra o Claude
 Code, cole este arquivo inteiro na conversa e escreva:
 
 > Me ajuda a instalar isso, passo a passo.
@@ -79,15 +79,13 @@ vídeo. O original fica intacto, sempre.
 Se o teste passou, está instalado. Daqui em diante é só abrir o Claude na pasta
 dos vídeos e pedir.
 
-## Quando parar e voltar para o caminho leve
+## Quando parar
 
-Sem rodeio: se você chegou na segunda hora tentando fazer isso funcionar, pare.
-
-A skill `video` sozinha já entrega a lista de cortes e as legendas. Aplicar isso
-no CapCut, no InShot ou no editor que você já domina leva quinze minutos e sai
-do jeito que você quer, porque você está vendo a imagem enquanto decide. O fluxo
-completo compensa quando você produz vídeo com frequência; num vídeo avulso, o
-caminho leve chega antes.
+Sem rodeio: se você chegou na segunda hora tentando fazer isso funcionar, pare
+e deixe para outro dia — a instalação é uma vez só, e ela não vale uma tarde.
+Guarde o erro que apareceu (copie a mensagem inteira) e, na próxima conversa,
+cole e pergunte o que ele quer dizer. Instalação pela metade não estraga nada:
+o próximo `use a skill video` retoma de onde parou.
 
 ## Se travar
 

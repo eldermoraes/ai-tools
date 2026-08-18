@@ -123,23 +123,23 @@ agendador no sistema e o computador ligado na hora: o guia é
 
 ### `video` ($)
 
-Trabalha em cima do texto do seu vídeo, então roda em qualquer computador. Entrega
-a lista do que cortar (com o minuto e o motivo), um arquivo de legendas pronto
-para importar no editor, e sugestões de trechos que funcionam sozinhos como vídeo
-curto.
+Edita o seu vídeo de verdade: corta as gaguejadas, as repetições e os silêncios,
+gera a legenda e monta o arquivo final. Quem faz o trabalho pesado é uma skill de
+edição chamada video-use (projeto aberto e gratuito, fora deste kit); a skill
+`video` opera essa edição por você e traduz cada decisão para português claro.
 
 **Para começar, digite:** `use a skill video`
 
-**Tenha à mão:** a transcrição do vídeo, colada na conversa ou num arquivo na
-máquina. Não tem? Suba o vídeo como não listado no YouTube e copie a transcrição
-automática de lá, que já vem com a marcação de tempo.
+**Tenha à mão:** o arquivo do vídeo numa pasta do seu computador. Na primeira
+vez, também alguns minutos: se a skill de edição ainda não estiver na máquina, a
+própria conversa instala — ela pede o ffmpeg (programa gratuito que corta vídeo)
+e uma conta na ElevenLabs, o serviço que transcreve o áudio (tem faixa gratuita).
+O guia que a conversa segue é
+[`avancado/video-completo.md`](avancado/video-completo.md).
 
-Ela não abre o arquivo de vídeo e não corta nada. Ela escreve o mapa, e quem corta
-é você, no editor que já usa. Existe também o degrau seguinte: instalar uma skill
-de edição completa, que corta, legenda e monta o arquivo final sozinha. O guia é
-[`avancado/video-completo.md`](avancado/video-completo.md), e ele diz de frente o
-que isso pede: programas extras, uma conta num serviço de transcrição e espaço em
-disco.
+O vídeo original fica intacto: o resultado aparece numa pasta `edit/` ao lado
+dele. Nada é cortado sem você aprovar o plano antes, e vale o combinado de
+sempre: você assiste ao vídeo inteiro antes de publicar.
 
 ### `minha-marca` ($)
 
