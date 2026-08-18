@@ -17,11 +17,15 @@ nunca ter aberto um terminal antes.
 
 ## Onde ficam os dados
 
-Tudo o que a pessoa escreve sobre o negócio dela vive em `~/escritorio-ia/`, no
-computador dela:
+Tudo o que a pessoa escreve sobre o negócio dela vive numa pasta chamada
+`ai-tools`, no computador dela. Onde essa pasta fica foi escolha dela, feita na
+instalação: o caminho está gravado em `~/.config/ai-tools/local.txt`, sozinho,
+numa linha. Leia esse arquivo antes de qualquer leitura ou gravação; se ele não
+existir, a pasta é `~/ai-tools`. Aqui e nas skills, `ai-tools/` significa essa
+pasta, onde quer que ela esteja:
 
 ```
-~/escritorio-ia/
+ai-tools/
 ├── negocio/     o que ela vende, para quem, preços, pendências, regras
 ├── voz/         o jeito dela de escrever
 ├── marca/       cores, fontes, identidade visual
@@ -31,13 +35,13 @@ computador dela:
 ```
 
 **Nunca grave nada dentro da pasta do repositório baixado.** Quando ela atualizar
-o repositório, o que estiver lá dentro se perde. Os arquivos dela ficam em
-`~/escritorio-ia/`, sempre.
+o repositório, o que estiver lá dentro se perde. Os arquivos dela ficam na pasta
+`ai-tools`, sempre.
 
 ## Leia o negócio antes de falar do negócio
 
 Antes de qualquer tarefa que envolva o negócio da pessoa, leia
-`~/escritorio-ia/negocio/contexto.md`, se ele existir. É lá que estão o que ela
+`ai-tools/negocio/contexto.md`, se ele existir. É lá que estão o que ela
 vende, os preços e o jeito dela atender.
 
 Se o arquivo não existir, diga a ela que a resposta vai sair genérica e sugira

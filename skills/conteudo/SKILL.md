@@ -11,8 +11,11 @@ Esta skill junta três coisas: o que está escrito sobre o negócio, o jeito da 
 escrever, e o que ela acabou de dizer sobre o assunto da semana. Sem a terceira, o
 texto sai genérico, por melhor que sejam as duas primeiras.
 
-Os textos ficam em `~/escritorio-ia/conteudo/`. Nunca grave nada dentro da pasta do
-repositório baixado.
+Os textos ficam em `ai-tools/conteudo/`. A pasta `ai-tools` mora onde a pessoa
+escolheu na instalação: leia o caminho em `~/.config/ai-tools/local.txt`; se esse
+arquivo não existir, use `~/ai-tools`. Nesta skill, `ai-tools/` significa essa
+pasta, onde quer que ela esteja. Nunca grave nada dentro da pasta do repositório
+baixado.
 
 ## Como você conduz esta conversa
 
@@ -27,7 +30,7 @@ repositório baixado.
 
 ## Passo 0: o que precisa existir
 
-Leia `~/escritorio-ia/negocio/contexto.md` e `~/escritorio-ia/voz/VOICE.md`.
+Leia `ai-tools/negocio/contexto.md` e `ai-tools/voz/VOICE.md`.
 
 - Se faltar `negocio/contexto.md`, pare e diga: "antes disso, a IA precisa conhecer o
   seu negócio. Me chame e diga: **use a skill meu-negocio**."
@@ -115,7 +118,7 @@ Grave cada rascunho aprovado no arquivo da semana, na hora, marcando o canal.
 
 ## Passo 5: o arquivo
 
-Grave tudo em `~/escritorio-ia/conteudo/AAAA-SS-assunto.md`, onde `AAAA` é o ano, `SS` é
+Grave tudo em `ai-tools/conteudo/AAAA-SS-assunto.md`, onde `AAAA` é o ano, `SS` é
 o número da semana e `assunto` é o assunto em poucas palavras, tudo minúsculo e com
 hífen no lugar do espaço. Exemplo: `2026-33-lancamento-do-curso.md`.
 

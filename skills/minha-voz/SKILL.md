@@ -12,14 +12,17 @@ digita tudo de novo. Esta skill lê textos que a pessoa já escreveu, conversa u
 sobre o jeito dela falar e grava isso num arquivo. Depois disso, toda skill do kit que
 escreve texto lê esse arquivo antes de começar.
 
-O arquivo final fica em `~/escritorio-ia/voz/VOICE.md`. Nunca grave nada dentro da
-pasta do repositório baixado.
+O arquivo final fica em `ai-tools/voz/VOICE.md`. A pasta `ai-tools` mora onde a
+pessoa escolheu na instalação: leia o caminho em `~/.config/ai-tools/local.txt`; se
+esse arquivo não existir, use `~/ai-tools`. Daqui em diante, `ai-tools/` significa
+essa pasta, onde quer que ela esteja. Nunca grave nada dentro da pasta do
+repositório baixado.
 
 ## Como você conduz esta conversa
 
 - Uma pergunta por vez.
 - **Grave em disco na hora.** Cada texto colado e cada resposta da entrevista vão para
-  `~/escritorio-ia/voz/anotacoes.md` assim que chegarem. O `VOICE.md` é escrito no fim,
+  `ai-tools/voz/anotacoes.md` assim que chegarem. O `VOICE.md` é escrito no fim,
   depois da aprovação, mas o material bruto não pode depender da conversa continuar
   aberta.
 - Português simples, sem termo técnico.
@@ -29,11 +32,11 @@ pasta do repositório baixado.
 
 ## Antes de começar
 
-Leia `~/escritorio-ia/negocio/contexto.md`, se existir, para saber do que a pessoa fala
+Leia `ai-tools/negocio/contexto.md`, se existir, para saber do que a pessoa fala
 no dia a dia. Se não existir, tudo bem: esta skill funciona sozinha. Só não invente o
 ramo do negócio.
 
-Se `~/escritorio-ia/voz/VOICE.md` já existir, mostre o que está escrito e pergunte se
+Se `ai-tools/voz/VOICE.md` já existir, mostre o que está escrito e pergunte se
 ela quer ajustar alguma coisa ou refazer com textos novos. Trabalhe em cima do que
 existe, não jogue fora.
 
@@ -123,7 +126,7 @@ Só passe adiante com um "sim" claro.
 
 ## Passo 5: gravar o `VOICE.md`
 
-Escreva `~/escritorio-ia/voz/VOICE.md` com estas partes, nesta ordem:
+Escreva `ai-tools/voz/VOICE.md` com estas partes, nesta ordem:
 
 1. **Como eu escrevo**: as características observadas, cada uma com um exemplo curto
    tirado dos textos dela.

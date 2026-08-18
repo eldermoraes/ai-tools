@@ -13,8 +13,10 @@ Esta skill faz duas coisas diferentes, dependendo de quando é chamada.
 o que vigiar e para quê. **Nas vezes seguintes** ela busca, cruza com a pasta do
 negócio e entrega as 3 coisas que importam hoje.
 
-Tudo fica em `~/escritorio-ia/radar/`. Nunca grave nada dentro da pasta do repositório
-baixado.
+Tudo fica em `ai-tools/radar/`. A pasta `ai-tools` mora onde a pessoa escolheu na
+instalação: leia o caminho em `~/.config/ai-tools/local.txt`; se esse arquivo não
+existir, use `~/ai-tools`. Nesta skill, `ai-tools/` significa essa pasta, onde
+quer que ela esteja. Nunca grave nada dentro da pasta do repositório baixado.
 
 ## Como você conduz esta conversa
 
@@ -30,8 +32,8 @@ baixado.
 
 Verifique, nesta ordem:
 
-1. Existe `~/escritorio-ia/radar/config.md`? Se sim, **pule para "Rodar o radar"**.
-2. Existe `~/escritorio-ia/_kit/modelos/radar.md` **preenchido pela pessoa**? Se sim,
+1. Existe `ai-tools/radar/config.md`? Se sim, **pule para "Rodar o radar"**.
+2. Existe `ai-tools/_kit/modelos/radar.md` **preenchido pela pessoa**? Se sim,
    **importe** (próxima seção).
 3. Nada disso? Faça a configuração conversando.
 
@@ -49,7 +51,7 @@ editar à vontade, não é o material original.
 
 Quando ele estiver preenchido:
 
-1. Leia o arquivo e transforme o que está lá em `~/escritorio-ia/radar/config.md`,
+1. Leia o arquivo e transforme o que está lá em `ai-tools/radar/config.md`,
    organizado nas seções da próxima seção. Grave. O modelo tem um bloco final,
    **"Como eu quero receber"**, com três tamanhos de relatório (bem curto, médio,
    completo): se ela marcou um, registre na configuração e respeite na hora de
@@ -67,7 +69,7 @@ Explique em duas frases o que vai acontecer: você vai fazer algumas perguntas s
 que ela quer acompanhar, isso vira um arquivo no computador dela, e a partir daí é só
 pedir o radar que o relatório sai.
 
-Leia `~/escritorio-ia/negocio/contexto.md` antes de perguntar. Com ele em mãos, você
+Leia `ai-tools/negocio/contexto.md` antes de perguntar. Com ele em mãos, você
 consegue sugerir o que vigiar em vez de perguntar no vácuo. Se ele não existir, diga em
 uma frase que o radar fica mais afiado depois de rodar `use a skill meu-negocio`, e
 siga assim mesmo.
@@ -91,7 +93,7 @@ Pergunte, uma de cada vez, gravando depois de cada resposta:
 Se ela travar em alguma pergunta, ajude com exemplos do ramo dela. Se ainda assim não
 souber, escreva `PENDENTE: <o que falta>` no arquivo e siga. Nunca preencha por ela.
 
-Grave em `~/escritorio-ia/radar/config.md`, com uma seção por bloco acima e as
+Grave em `ai-tools/radar/config.md`, com uma seção por bloco acima e as
 respostas com as palavras dela.
 
 No fim da configuração, ofereça rodar o primeiro relatório agora. Se ela preferir rodar
@@ -108,7 +110,7 @@ pessoa.
 
 Com `config.md` na mão:
 
-1. **Leia** `config.md` e `~/escritorio-ia/negocio/contexto.md`.
+1. **Leia** `config.md` e `ai-tools/negocio/contexto.md`.
 2. **Avise que começou.** Uma linha, dizendo o que você vai procurar. Busca demora, e
    silêncio parece travamento.
 3. **Busque na internet**, guiada pela configuração: os concorrentes, os preços, os
@@ -148,7 +150,7 @@ inferindo.
 
 ### O arquivo do dia
 
-Grave em `~/escritorio-ia/radar/AAAA-MM-DD.md`, um arquivo por dia.
+Grave em `ai-tools/radar/AAAA-MM-DD.md`, um arquivo por dia.
 
 **Se o arquivo de hoje já existir, atualize esse mesmo arquivo. Nunca crie um segundo
 arquivo para o mesmo dia e nunca duplique o conteúdo.** Rodar duas vezes no mesmo dia é
@@ -166,11 +168,12 @@ termina com três coisas, não com seis.
 
 ### A linha do fim
 
-Todo relatório termina com estas duas frases, sempre:
+Todo relatório termina com estas duas frases, sempre (escrevendo, no lugar de
+`ai-tools`, o caminho completo de verdade da pasta):
 
 > Quer receber isso no seu celular? Configure a skill `telegram` (guia em
-> `~/escritorio-ia/_kit/avancado/telegram.md`). Quer que rode sozinho toda manhã? Guia
-> em `~/escritorio-ia/_kit/avancado/agendamento.md` (exige a máquina ligada).
+> `ai-tools/_kit/avancado/telegram.md`). Quer que rode sozinho toda manhã? Guia
+> em `ai-tools/_kit/avancado/agendamento.md` (exige a máquina ligada).
 
 ## Fechamento
 

@@ -32,14 +32,17 @@ sabendo exatamente o que pedir.
 - Uma pergunta por vez.
 - Português simples. Se precisar usar um termo (código da cor, fonte com serifa),
   explique na mesma frase.
-- **Grave em disco na hora.** Cada resposta vai para `~/escritorio-ia/marca/anotacoes.md`
+- **Grave em disco na hora.** Cada resposta vai para `ai-tools/marca/anotacoes.md`
   assim que chegar. O `BRAND.md` é escrito depois, com a pessoa aprovando.
+- A pasta `ai-tools` mora onde a pessoa escolheu na instalação: leia o caminho em
+  `~/.config/ai-tools/local.txt`; se esse arquivo não existir, use `~/ai-tools`.
+  Nesta skill, `ai-tools/` significa essa pasta, onde quer que ela esteja.
 - Nunca grave nada dentro da pasta do repositório baixado.
 - No fim, mostre a lista dos arquivos criados ou alterados.
 
 ## Antes de começar
 
-Leia `~/escritorio-ia/negocio/contexto.md`, se existir. De lá vêm o nome do negócio, o
+Leia `ai-tools/negocio/contexto.md`, se existir. De lá vêm o nome do negócio, o
 que ela vende, para quem e o jeito dela atender. Isso poupa perguntas: confirme o que já
 está escrito em vez de perguntar de novo.
 
@@ -47,7 +50,7 @@ Se não existir, siga assim mesmo. Pergunte só o essencial (nome do negócio, o
 para quem) e diga em uma linha que a skill `meu-negocio` guarda isso de vez, para todas
 as outras conversas.
 
-Se `~/escritorio-ia/marca/BRAND.md` já existir, mostre o que está escrito e pergunte o
+Se `ai-tools/marca/BRAND.md` já existir, mostre o que está escrito e pergunte o
 que ela quer mudar. Trabalhe em cima do que existe, não jogue fora.
 
 Leia também `negocio/regras.md`, se existir: setor regulado costuma ter restrição sobre
@@ -138,7 +141,7 @@ Três é o número certo. Mais que isso ninguém lembra na hora de fazer o mater
 
 ## Passo 5: gravar o `BRAND.md`
 
-Escreva `~/escritorio-ia/marca/BRAND.md` com estas partes, nesta ordem:
+Escreva `ai-tools/marca/BRAND.md` com estas partes, nesta ordem:
 
 1. **O negócio**: nome, o que vende, para quem, e as duas ou três palavras da pergunta 4.
 2. **Cores**: as cinco, com nome, código e onde usar cada uma.
@@ -153,7 +156,7 @@ dela, e ela vai abrir e editar quando quiser.
 
 Aqui ela vê a marca aplicada antes de dar por encerrado.
 
-Monte um one-pager do negócio em `~/escritorio-ia/marca/exemplo.html`: uma página só,
+Monte um one-pager do negócio em `ai-tools/marca/exemplo.html`: uma página só,
 com o nome do negócio, uma frase do que ele faz, para quem é, dois ou três serviços com
 preço, e o contato. Tudo aplicando as cores, as fontes e as regras.
 
@@ -176,9 +179,10 @@ Como montar o arquivo:
   você deduziu.
 - Simples de ler no celular e no computador.
 
-Depois, diga a ela como abrir, com estas palavras:
+Depois, diga a ela como abrir, com estas palavras (trocando o caminho pelo caminho
+completo de verdade do arquivo, o que você acabou de gravar):
 
-> Está pronto. Abra o arquivo `~/escritorio-ia/marca/exemplo.html` clicando duas vezes
+> Está pronto. Abra o arquivo `<caminho completo do exemplo.html>` clicando duas vezes
 > nele: ele abre no seu navegador, como uma página normal. Dá uma olhada e me diz o que
 > achou.
 
@@ -197,8 +201,8 @@ arquivos não podem discordar um do outro.
 
 1. Mostre o caminho dos arquivos: o `BRAND.md` e o `exemplo.html`.
 2. Diga como usar daqui pra frente: quando ela for pedir um material, uma página, uma
-   proposta ou uma apresentação, basta dizer para ler o arquivo
-   `~/escritorio-ia/marca/BRAND.md` antes de começar. E no Canva, os códigos das cores se
+   proposta ou uma apresentação, basta dizer para ler o arquivo `BRAND.md` da pasta
+   `ai-tools/marca` antes de começar. E no Canva, os códigos das cores se
    colam direto no seletor de cor.
 3. Lembre que o arquivo é texto: ela abre, lê e edita quando quiser, e pode voltar aqui
    para ajustar sempre que a marca mudar.

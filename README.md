@@ -39,7 +39,9 @@ Elas estão na ordem de uso. As três primeiras são o primeiro dia, e `meu-nego
 vem antes de tudo porque as outras leem os arquivos que ela escreve. Todas
 conversam do mesmo jeito: uma pergunta por vez, e cada resposta gravada num
 arquivo na hora, então dá para parar no meio e voltar depois. Os arquivos ficam
-na pasta `escritorio-ia`, dentro da sua pasta pessoal no computador. O `$` ao
+na pasta `ai-tools`, e na instalação você escolhe onde ela mora: na sua pasta
+pessoal (o padrão), dentro de um projeto seu, ou numa pasta que sincroniza com a
+nuvem, como o Google Drive. O `$` ao
 lado do nome é o custo de rodar: quanto mais cifrões, mais cara a conversa.
 
 ### `meu-negocio` ($)
@@ -208,10 +210,11 @@ Provavelmente é: este kit foi feito para ser instalado e operado por um agente
    contando o que está fazendo em português simples. Não improvise um caminho de
    instalação próprio.
 2. **Antes de operar qualquer skill**, leia o [`AGENTS.md`](AGENTS.md). As três
-   regras que não se negociam: os dados da pessoa vivem em `~/escritorio-ia/`,
-   nunca dentro do clone deste repositório; você nunca publica, envia ou posta
-   nada em nome dela; dado identificável de cliente dela não entra em arquivo
-   nenhum.
+   regras que não se negociam: os dados da pessoa vivem na pasta `ai-tools` (o
+   caminho está gravado em `~/.config/ai-tools/local.txt`; sem esse arquivo, é
+   `~/ai-tools`), nunca dentro do clone deste repositório; você nunca publica,
+   envia ou posta nada em nome dela; dado identificável de cliente dela não entra
+   em arquivo nenhum.
 3. **Pediram uma tarefa** ("quero um post", "me ajuda a decidir", "analisa minha
    campanha"): a skill certa está instalada em `~/.claude/skills/` (ou no
    diretório equivalente da sua ferramenta) e se descreve sozinha. Leia o

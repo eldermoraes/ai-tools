@@ -95,10 +95,10 @@ escreva aqui. Se deixar em branco, a IA procura por conta dela.*
 
 ---
 
-**Onde este arquivo mora:** `~/escritorio-ia/_kit/modelos/radar.md`. Ao rodar a
-skill `radar` pela primeira vez, ela lê o que você escreveu aqui e guarda a
-configuração final em `~/escritorio-ia/radar/config.md`. A partir daí, é lá que
-você edita.
+**Onde este arquivo mora:** na pasta `_kit/modelos/`, dentro da pasta `ai-tools`
+que você escolheu na instalação. Ao rodar a skill `radar` pela primeira vez, ela
+lê o que você escreveu aqui e guarda a configuração final em `ai-tools/radar/config.md`.
+A partir daí, é lá que você edita.
 
 Toda IA erra. O relatório é ponto de partida para a sua decisão, e você confere o
 que for usar.

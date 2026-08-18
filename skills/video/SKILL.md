@@ -18,7 +18,9 @@ corta é você, no editor que já usa (CapCut, InShot, Premiere, o que for). O c
 que a própria máquina corta, legenda e monta o arquivo existe: é a instalação de uma
 skill de edição completa (um projeto aberto chamado video-use), e o passo a passo está
 no guia `avancado/video-completo.md`, instalado em
-`~/escritorio-ia/_kit/avancado/video-completo.md`. Ele pede programas extras, uma conta
+`ai-tools/_kit/avancado/video-completo.md`. A pasta `ai-tools` mora onde a pessoa
+escolheu na instalação: leia o caminho em `~/.config/ai-tools/local.txt`; se esse
+arquivo não existir, use `~/ai-tools`. O guia pede programas extras, uma conta
 num serviço de transcrição e espaço em disco.
 
 ## Como você conduz esta conversa
@@ -79,7 +81,7 @@ Pergunte, de uma vez:
 
 Se ela não souber, faça a 1 e a 2, que é o que serve para qualquer vídeo.
 
-Leia `~/escritorio-ia/negocio/contexto.md`, se existir. Saber o que ela vende e para quem
+Leia `ai-tools/negocio/contexto.md`, se existir. Saber o que ela vende e para quem
 muda quais trechos você sugere como clipe.
 
 **Dados de outras pessoas.** Se a transcrição tiver nome completo, telefone, valor de

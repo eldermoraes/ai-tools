@@ -12,8 +12,11 @@ fazer com o dinheiro do mês. Esta skill monta a mesa que a pessoa não tem. Cin
 conselheiros analisam a decisão de cinco ângulos diferentes, sem um copiar do outro, e
 no fim sai um veredito com placar.
 
-Os vereditos ficam em `~/escritorio-ia/conselho/`. Nunca grave nada dentro da pasta do
-repositório baixado.
+Os vereditos ficam em `ai-tools/conselho/`. A pasta `ai-tools` mora onde a pessoa
+escolheu na instalação: leia o caminho em `~/.config/ai-tools/local.txt`; se esse
+arquivo não existir, use `~/ai-tools`. Nesta skill, `ai-tools/` significa essa
+pasta, onde quer que ela esteja. Nunca grave nada dentro da pasta do repositório
+baixado.
 
 ## Os cinco conselheiros
 
@@ -47,8 +50,8 @@ argumento vencer.
 
 ## Antes de qualquer coisa: leia o negócio
 
-Leia `~/escritorio-ia/negocio/contexto.md`. Leia também
-`~/escritorio-ia/negocio/numeros.md` e `~/escritorio-ia/negocio/regras.md`, se
+Leia `ai-tools/negocio/contexto.md`. Leia também
+`ai-tools/negocio/numeros.md` e `ai-tools/negocio/regras.md`, se
 existirem. Todos os conselheiros trabalham com essas informações.
 
 Se `contexto.md` não existir, avise em uma frase antes de começar: o conselho vai
@@ -221,7 +224,7 @@ A pessoa perdeu o modelo topo, não o conselho.
 
 ## O arquivo do veredito
 
-Grave em `~/escritorio-ia/conselho/AAAA-MM-DD-tema.md`, onde `tema` são duas ou três
+Grave em `ai-tools/conselho/AAAA-MM-DD-tema.md`, onde `tema` são duas ou três
 palavras da decisão, em minúsculas e separadas por hífen. Exemplo:
 `2026-08-15-aumentar-preco-mensalidade.md`.
 

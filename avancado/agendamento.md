@@ -51,8 +51,12 @@ Rode o comando pronto **uma vez, com você olhando**. Depois confira se apareceu
 arquivo do dia:
 
 ```bash
-ls ~/escritorio-ia/radar/
+ls ~/ai-tools/radar/
 ```
+
+Esse caminho vale para quem instalou a pasta `ai-tools` na pasta pessoal, que é o
+padrão. Se você escolheu outro lugar na instalação, peça ao Claude para ajustar:
+o caminho de verdade está gravado em `~/.config/ai-tools/local.txt`.
 
 Tem que existir um arquivo com a data de hoje, no formato `2026-08-15.md`. Se não
 apareceu, não agende nada ainda: resolva isso primeiro, colando o erro na conversa.
@@ -88,7 +92,7 @@ Passo 1:
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>escritorio-ia.radar</string>
+    <string>ai-tools.radar</string>
     <key>ProgramArguments</key>
     <array>
         <!-- aqui entra o comando que funcionou no Passo 1 -->
@@ -110,16 +114,16 @@ As duas últimas linhas são o que salva a sua vida quando algo não rodar: elas
 guardam o que aconteceu em `/tmp/radar.log` e `/tmp/radar-erro.log`. Sem isso, uma
 falha às 7h é silêncio puro.
 
-Com o arquivo salvo em `~/Library/LaunchAgents/escritorio-ia.radar.plist`, ligue:
+Com o arquivo salvo em `~/Library/LaunchAgents/ai-tools.radar.plist`, ligue:
 
 ```bash
-launchctl load -w ~/Library/LaunchAgents/escritorio-ia.radar.plist
+launchctl load -w ~/Library/LaunchAgents/ai-tools.radar.plist
 ```
 
 Para desligar depois, o contrário:
 
 ```bash
-launchctl unload -w ~/Library/LaunchAgents/escritorio-ia.radar.plist
+launchctl unload -w ~/Library/LaunchAgents/ai-tools.radar.plist
 ```
 
 ## Passo 2 (Windows): montar o agendamento
@@ -134,7 +138,7 @@ O caminho, em linhas gerais:
 
 1. Abra o menu Iniciar e busque por "Agendador de Tarefas".
 2. No lado direito, **Criar Tarefa Básica**.
-3. Dê um nome: "Radar do escritório".
+3. Dê um nome: "Radar do negócio".
 4. Quando começar: **Diariamente**. Escolha a hora.
 5. Ação: **Iniciar um programa**. Aqui vai o comando do Passo 1, quebrado em
    programa e argumentos. Deixe o Claude dizer exatamente o que vai em cada campo.
@@ -147,8 +151,11 @@ O caminho, em linhas gerais:
 Amanhã, depois da hora marcada:
 
 ```bash
-ls -la ~/escritorio-ia/radar/
+ls -la ~/ai-tools/radar/
 ```
+
+(De novo: se a sua pasta `ai-tools` mora em outro lugar, o caminho certo está em
+`~/.config/ai-tools/local.txt`.)
 
 Se apareceu o arquivo com a data de hoje, funcionou. Abra e leia.
 
@@ -163,8 +170,8 @@ caminho de programa ou permissão, e resolve em dois minutos.
 
 ## Passo 4 (opcional): receber no celular
 
-Se você já configurou a skill `telegram` (guia em
-`~/escritorio-ia/_kit/avancado/telegram.md`), dá para o agendamento entregar o
+Se você já configurou a skill `telegram` (o guia está em `_kit/avancado/telegram.md`,
+dentro da sua pasta `ai-tools`), dá para o agendamento entregar o
 relatório no seu celular assim que ele ficar pronto, em vez de esperar você abrir
 a pasta.
 

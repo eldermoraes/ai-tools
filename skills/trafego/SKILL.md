@@ -30,7 +30,9 @@ assim de propósito: quem mexe no dinheiro é ela, com a tela na frente.
 - Português simples. Nada de termo de agência sem tradução.
 - Não invente número. Se um dado não veio da conta, diga que não veio e siga sem ele.
 - Esta skill não grava arquivo por conta própria. Se a pessoa pedir para guardar o
-  diagnóstico, salve em `~/escritorio-ia/radar/AAAA-MM-DD-trafego.md` e mostre o caminho.
+  diagnóstico, salve em `ai-tools/radar/AAAA-MM-DD-trafego.md` e mostre o caminho.
+  A pasta `ai-tools` mora onde a pessoa escolheu na instalação: leia o caminho em
+  `~/.config/ai-tools/local.txt`; se esse arquivo não existir, use `~/ai-tools`.
   Nunca grave nada dentro da pasta do repositório baixado.
 
 ## Passo 0: a conexão (sempre primeiro)
@@ -42,7 +44,7 @@ Antes de qualquer outra coisa, **tente listar as contas de anúncio** da pessoa.
   voltou vazia): **pare aqui**. Diga, com naturalidade, que a conta de anúncios ainda não
   está conectada e que essa conexão é uma etapa à parte, feita uma vez só. Aponte o guia
   `avancado/meta-ads.md`, que ficou instalado em
-  `~/escritorio-ia/_kit/avancado/meta-ads.md`, e ofereça fazer isso junto com ela agora.
+  `ai-tools/_kit/avancado/meta-ads.md`, e ofereça fazer isso junto com ela agora.
 
 Não improvise: sem conexão, não peça print, não peça planilha, não estime número. Sem os
 dados da conta, esta skill não roda.
@@ -53,7 +55,7 @@ e depois trate da conexão, que é o que falta para você ao menos dizer qual ca
 
 ## Passo 1: o contexto do negócio
 
-Leia `~/escritorio-ia/negocio/contexto.md`, se existir. É de lá que vem o que ela vende,
+Leia `ai-tools/negocio/contexto.md`, se existir. É de lá que vem o que ela vende,
 o preço e a margem, e é isso que transforma "custo por clique" em "vale a pena ou não".
 
 Se não existir, siga assim mesmo, mas diga em uma linha que a análise fica mais rasa e

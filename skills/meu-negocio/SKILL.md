@@ -1,6 +1,6 @@
 ---
 name: meu-negocio
-description: Monta, atualiza e usa a pasta que faz a IA conhecer o negócio da pessoa (o que ela vende, preços, clientes, pendências e regras do setor). Use quando ela disser que quer que a IA conheça o negócio dela, pedir para montar ou atualizar a pasta do negócio ou o escritório de IA, ou colar uma mensagem de cliente pedindo ajuda para responder.
+description: Monta, atualiza e usa a pasta que faz a IA conhecer o negócio da pessoa (o que ela vende, preços, clientes, pendências e regras do setor). Use quando ela disser que quer que a IA conheça o negócio dela, pedir para montar ou atualizar a pasta do negócio ou a pasta ai-tools, ou colar uma mensagem de cliente pedindo ajuda para responder.
 ---
 
 # meu-negocio: a pasta do seu negócio
@@ -10,8 +10,11 @@ description: Monta, atualiza e usa a pasta que faz a IA conhecer o negócio da p
 Esta é a primeira skill do kit. Ela faz uma entrevista com a pessoa e escreve, na
 máquina dela, os arquivos que todas as outras skills leem antes de trabalhar.
 
-Os arquivos ficam em `~/escritorio-ia/negocio/` (o `~` é a pasta pessoal do usuário no
-computador). Nunca grave nada dentro da pasta do repositório baixado.
+Os arquivos ficam em `ai-tools/negocio/`. A pasta `ai-tools` mora onde a pessoa
+escolheu na instalação: leia o caminho em `~/.config/ai-tools/local.txt`; se esse
+arquivo não existir, use `~/ai-tools` (o `~` é a pasta pessoal do usuário no
+computador). Daqui em diante, `ai-tools/` significa essa pasta, onde quer que ela
+esteja. Nunca grave nada dentro da pasta do repositório baixado.
 
 ## Como você conduz esta conversa
 
@@ -44,14 +47,14 @@ diagnóstico e histórico de saúde não entram, mesmo que a pessoa ofereça.
 Antes da primeira pergunta, diga em duas frases o que vai acontecer:
 
 1. Você vai fazer algumas perguntas sobre o negócio dela, uma de cada vez, e cada
-   resposta vira um arquivo de texto na pasta `escritorio-ia` no computador dela.
+   resposta vira um arquivo de texto na pasta `ai-tools` no computador dela.
 2. Dá para parar quando quiser e retomar depois: o que já foi respondido fica gravado.
 
 Depois avise que ninguém precisa chegar com documento pronto. É conversa.
 
 ## Antes de começar: já existe pasta?
 
-Verifique se `~/escritorio-ia/negocio/` já tem arquivos.
+Verifique se `ai-tools/negocio/` já tem arquivos.
 
 **Se não tiver:** crie a pasta e faça a entrevista completa, do bloco 1 ao 5.
 
