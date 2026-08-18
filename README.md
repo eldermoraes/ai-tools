@@ -86,8 +86,9 @@ Ou grave 1 minuto de áudio falando do assunto e traga a transcrição. É essa 
 que tira a cara de robô do texto.
 
 Ela pergunta o assunto, pede o seu material, pergunta em quais canais você publica
-e escreve 3 rascunhos, um de cada vez, esperando o seu aval antes de ir para o
-próximo. No fim os 3 textos ficam gravados num arquivo da semana, prontos para
+e quantos posts você quer — se não tiver um número em mente, ela sugere 3 — e
+escreve os rascunhos um de cada vez, esperando o seu aval antes de ir para o
+próximo. No fim os textos ficam gravados num arquivo da semana, prontos para
 copiar e publicar. Ela nunca publica e nunca agenda nada.
 
 ### `conselho` ($$ a $$$)

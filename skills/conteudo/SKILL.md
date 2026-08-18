@@ -46,10 +46,11 @@ Leia também `negocio/regras.md`, se existir, e respeite as restrições registr
 
 Pergunte: **qual assunto você quer comunicar esta semana?**
 
-Uma coisa só. Se vierem três, peça para escolher a que mais importa agora e diga que as
-outras podem virar os posts da semana que vem.
+Se vierem vários, pergunte por qual ela quer começar e trabalhe um assunto por vez, do
+insumo ao rascunho aprovado. Terminado um, siga para o próximo na mesma conversa.
+Quantos assuntos e quantos posts saem é decisão dela, nunca sua.
 
-Grave o assunto no arquivo da semana assim que ele sair.
+Grave cada assunto no arquivo da semana assim que ele sair.
 
 ## Passo 2: o insumo (a parte que faz a diferença)
 
@@ -84,21 +85,17 @@ outro que ela usar. Pode escolher mais de um.
 Se ela não souber, sugira os canais que estão em `negocio/contexto.md` como os que ela
 já usa.
 
-## Passo 4: os três rascunhos
+## Passo 4: os rascunhos
 
-Escreva **3 rascunhos, um de cada vez**. Depois de cada um, mostre e pergunte se está bom
-antes de escrever o próximo. São sempre três, distribuídos entre os canais que ela
-escolheu:
+Pergunte quantos posts ela quer sobre esse assunto. Se ela não tiver um número em
+mente, sugira 3, que dá para publicar na semana sem repetir a mesma frase. O número
+final é o que ela disser: se pedir mais, escreva mais.
 
-- **Três canais ou mais:** um rascunho para cada um dos três primeiros.
-- **Dois canais:** dois para o canal principal dela (dois ângulos diferentes do mesmo
-  assunto) e um para o outro.
-- **Um canal só:** três versões para esse canal, cada uma entrando no assunto por um
-  caminho: uma pela história, uma pelo problema que o cliente tem, uma pela oferta
-  direta.
-
-Três é o número certo porque é o que dá para publicar na semana sem repetir a mesma
-frase.
+Escreva os rascunhos **um de cada vez**. Depois de cada um, mostre e pergunte se está
+bom antes de escrever o próximo. Distribua entre os canais que ela escolheu, começando
+pelo principal. Quando mais de um rascunho cair no mesmo canal, entre no assunto por
+um caminho diferente a cada um: pela história, pelo problema que o cliente tem, pela
+oferta direta.
 
 Regras para escrever:
 
@@ -146,7 +143,7 @@ topo do arquivo **para quando ele é**, em uma linha: é assim que ela reencontr
 quando a data chegar.
 
 O arquivo tem, nesta ordem: o assunto, o insumo que ela deu (do jeito que ela mandou),
-os canais escolhidos e os três rascunhos aprovados, cada um marcado com o canal a que
+os canais escolhidos e os rascunhos aprovados, cada um marcado com o canal a que
 se destina.
 
 Se já existir arquivo dessa semana com o mesmo assunto, acrescente ao que está lá. Não
