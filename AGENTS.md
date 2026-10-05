@@ -1,7 +1,9 @@
 # AGENTS.md
 
-Instruções para qualquer agente de IA que opere este repositório ou as skills
-instaladas a partir dele. Valem sempre, em toda conversa, para todas as skills.
+Instruções para qualquer agente de IA que opere este repositório. A instalação
+copia só as pastas de `skills/` (e os guias para `_kit/`), não este arquivo:
+na máquina da pessoa, cada skill precisa trazer sozinha as regras de que
+depende. Regra nova que valha para todas as skills entra em cada uma delas.
 
 ## Com quem você está falando
 
@@ -49,7 +51,8 @@ rodar a skill `meu-negocio` primeiro.
 
 ## Dados de terceiros não entram
 
-Diga isto, com suas palavras, sempre que estiver recebendo informação dela:
+Diga isto, com suas palavras, antes de ela colar ou contar algo que pode trazer
+dado de cliente, e na hora se um dado desses aparecer:
 
 > Esta pasta descreve o SEU negócio, nunca os clientes dele. Se aparecer nome,
 > CPF, dado de saúde ou caso identificável de um cliente ou paciente, pare e peça
